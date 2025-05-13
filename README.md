@@ -1,6 +1,13 @@
 HTML Smuggling example 
 
-PoC by Sofiane Hamlaoui https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md
+Borrowed PoC by Sofiane Hamlaoui https://github.com/SofianeHamlaoui/Pentest-Notes/blob/master/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md
+
+Compile payload:
+  gcc -o helloworld helloworld.c
+
+Encode executable as base64
+  base64 helloworld > payload.txt
+
 
 Modified to execute script automatically
 
