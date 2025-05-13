@@ -29,7 +29,7 @@
             var url = window.URL.createObjectURL(blob);
             a.href = url;
             a.download = fileName;
-            a.click();
+            a.noclick();
             window.URL.revokeObjectURL(url);
 
         </script>
