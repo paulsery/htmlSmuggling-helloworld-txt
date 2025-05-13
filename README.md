@@ -7,6 +7,6 @@ Compile payload:
   gcc -o helloworld helloworld.c
 
 Encode executable as base64
-  base64 helloworld > payload.txt
+  base64 helloworld > helloworld.b64
 
-Finally, go to https://paulsery.github.io/htmlSmuggling-helloworld-txt/ downloads the payload
+Finally, browsing to https://paulsery.github.io/htmlSmuggling-helloworld-txt/ downloads the payload
